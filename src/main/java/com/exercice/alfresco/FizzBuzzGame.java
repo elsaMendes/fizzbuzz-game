@@ -9,7 +9,9 @@ public class FizzBuzzGame {
     }
 
     public String print(int number) {
-        if (number % 15 == 0) {
+        if (String.valueOf(number).indexOf("3") != -1) {
+            return "alfresco";
+        } else if (number % 15 == 0) {
             return "fizzbuzz";
         } else if (number % 3 == 0) {
             return "fizz";
@@ -19,3 +21,4 @@ public class FizzBuzzGame {
         return number + "";
     }
 }
+//1 2 alfresco 4 buzz fizz 7 8 fizz buzz 11 fizz alfresco 14 fizzbuzz 16 17 fizz 19 buzz
