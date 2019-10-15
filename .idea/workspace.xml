@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="596b3c3a-9311-4dce-adfd-d00238123ad6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/exercice/alfresco/FizzBuzzGame.class" afterPath="$PROJECT_DIR$/target/classes/com/exercice/alfresco/FizzBuzzGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/exercice/alfresco/FizzBuzzGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/exercice/alfresco/FizzBuzzGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/exercice/alfresco/FizzBuzzGameTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/exercice/alfresco/FizzBuzzGameTest.java" />
     </list>
@@ -31,9 +29,13 @@
       <file leaf-file-name="FizzBuzzGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/exercice/alfresco/FizzBuzzGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="281">
+              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +53,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/exercice/alfresco/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -71,10 +73,11 @@
       <file leaf-file-name="FizzBuzzGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercice/alfresco/FizzBuzzGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="765">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
                 <element signature="e#1281#1282#0" expanded="true" />
               </folding>
             </state>
@@ -104,9 +107,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercice/alfresco/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercice/alfresco/FizzBuzzGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercice/alfresco/FizzBuzzGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercice/alfresco/App.java" />
       </list>
     </option>
   </component>
@@ -223,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.FizzBuzzGameTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -257,6 +260,31 @@
       <option name="MAIN_CLASS_NAME" value="com.exercice.alfresco.FizzBuzzGameTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FizzBuzzGameTest.shouldCount_alfresco2_from1to20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.exercice.alfresco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FizzyBuzz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.exercice.alfresco" />
+      <option name="MAIN_CLASS_NAME" value="com.exercice.alfresco.FizzBuzzGameTest" />
+      <option name="METHOD_NAME" value="shouldCount_alfresco2_from1to20" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -349,14 +377,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.App" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.shouldCount_alfresco2_from1to20" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.shouldCount_alfresco2_from1to20" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -374,35 +404,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 08m 04s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 49m 32s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 50m 24s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 50m 38s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 53m 07s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 56m 09s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 15h 56m 48s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 19h 49m 02s.xml">
-      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzGameTest - 2019.10.15 at 19h 52m 53s.xml">
       <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FizzBuzzGameTest - 2019.10.15 at 19h 59m 16s.xml">
       <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 20h 40m 04s.xml">
+      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 20h 42m 24s.xml">
+      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 20h 57m 05s.xml">
+      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest - 2019.10.15 at 20h 57m 35s.xml">
+      <configuration name="FizzBuzzGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest_shouldCount_alfresco2_from1to20 - 2019.10.15 at 20h 41m 23s.xml">
+      <configuration name="FizzBuzzGameTest.shouldCount_alfresco2_from1to20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest_shouldCount_alfresco2_from1to20 - 2019.10.15 at 20h 49m 32s.xml">
+      <configuration name="FizzBuzzGameTest.shouldCount_alfresco2_from1to20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest_shouldCount_alfresco2_from1to20 - 2019.10.15 at 20h 50m 45s.xml">
+      <configuration name="FizzBuzzGameTest.shouldCount_alfresco2_from1to20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzGameTest_shouldCount_alfresco2_from1to20 - 2019.10.15 at 20h 51m 21s.xml">
+      <configuration name="FizzBuzzGameTest.shouldCount_alfresco2_from1to20" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -469,18 +499,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercice/alfresco/FizzBuzzGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="281">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/exercice/alfresco/FizzBuzzGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
             <element signature="e#1281#1282#0" expanded="true" />
           </folding>
         </state>
@@ -488,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercice/alfresco/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding />
         </state>
       </provider>

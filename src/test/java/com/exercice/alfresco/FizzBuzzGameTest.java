@@ -43,4 +43,10 @@ public class FizzBuzzGameTest {
     public void shouldProduce_alfresco_ifNumberContains3(){
         assertTrue(fizzBuzzGame.print(13).equals("alfresco"));
     }
+
+    @Test
+    public void shouldCount_alfresco2_from1to20() {
+        fizzBuzzGame.start(1, 20);
+        assertTrue(fizzBuzzGame.getMapReport().get("alfresco") == 2);
+    }
 }
