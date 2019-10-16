@@ -1,7 +1,13 @@
 package com.exercice.alfresco;
 
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.HashMap;
 import java.util.Map;
+
+@RestController
 
 public class FizzBuzzGame {
 
@@ -16,30 +22,34 @@ public class FizzBuzzGame {
         mapReport.put("integer", 0);
     }
 
-    public void start(int from, int to) {
+    @RequestMapping(value = "/fizzbuzz/from/{from}/to/{to}")
+    public String execute(@PathVariable int from, @PathVariable int to) {
+        String result = "";
         for (int i = from; i <= to; i++) {
-            String result = print(i);
+            String word = evaluateNumber(i);
 
-            if (mapReport.containsKey(result)) {
-                mapReport.put(result, mapReport.get(result) + 1);
+            if (mapReport.containsKey(word)) {
+                mapReport.put(word, mapReport.get(word) + 1);
             } else {
                 mapReport.put("integer", mapReport.get("integer") + 1);
             }
 
-            System.out.print(result + " ");
+            result += word + " ";
         }
-        System.out.println();
-        printReport(mapReport);
 
+        return result + "\n" + getReportFrequency(mapReport);
     }
 
-    private void printReport(Map<String, Integer> mapReport) {
+    private String getReportFrequency(Map<String, Integer> mapReport) {
+        String report = "";
         for (String key : mapReport.keySet()) {
-            System.out.print(key + ": " + mapReport.get(key) + " ");
+            report += key + ": " + mapReport.get(key) + " ";
         }
+
+        return report;
     }
 
-    public String print(int number) {
+    public String evaluateNumber(int number) {
         if (String.valueOf(number).indexOf("3") != -1) {
             return "alfresco";
         } else if (number % 15 == 0) {
