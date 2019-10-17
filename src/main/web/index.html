@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bookmarks frontend</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+<div class="container">
+    <h1>FizzBuzz Game</h1>
+
+    <form data-bind="submit: execute" class="form-horizontal">
+        <div class="form-group">
+            <label for="inputFrom" class="col-sm-2 control-label">From</label>
+
+            <div class="col-sm-10">
+                <input data-bind="value: from" type="text" class="form-control" id="inputFrom" placeholder="From">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputTo" class="col-sm-2 control-label">To</label>
+
+            <div class="col-sm-10">
+                <input data-bind="value: to" type="text" class="form-control" id="inputTo" placeholder="To">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Execute</button>
+            </div>
+        </div>
+        <h4>Result: </h4><span data-bind="text: result"> </span>
+        <h4>Report: </h4><span data-bind="text: report"> </span>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.0.0.js"></script>
+<script type='text/javascript' src='js/fizzbuzz.js'></script>
+</body>
+</html>

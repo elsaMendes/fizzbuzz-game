@@ -1,30 +1,24 @@
 package com.exercice.alfresco;
 
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@RestController
-
+@Component
 public class FizzBuzzGame {
 
     private Map<String, Integer> mapReport;
 
     public FizzBuzzGame() {
         mapReport = new HashMap<>();
-        mapReport.put("alfresco", 0);
-        mapReport.put("fizz", 0);
-        mapReport.put("buzz", 0);
-        mapReport.put("fizzbuzz", 0);
-        mapReport.put("integer", 0);
+        resetMapReport();
     }
 
-    @RequestMapping(value = "/fizzbuzz/from/{from}/to/{to}")
-    public String execute(@PathVariable int from, @PathVariable int to) {
+
+    public String execute(int from, int to) {
         String result = "";
+        resetMapReport();
         for (int i = from; i <= to; i++) {
             String word = evaluateNumber(i);
 
@@ -36,8 +30,15 @@ public class FizzBuzzGame {
 
             result += word + " ";
         }
-
         return result + "\n" + getReportFrequency(mapReport);
+    }
+
+    private void resetMapReport() {
+        mapReport.put("alfresco", 0);
+        mapReport.put("fizz", 0);
+        mapReport.put("buzz", 0);
+        mapReport.put("fizzbuzz", 0);
+        mapReport.put("integer", 0);
     }
 
     private String getReportFrequency(Map<String, Integer> mapReport) {
